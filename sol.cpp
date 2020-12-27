@@ -15,7 +15,7 @@ public:
             return;
         ListNode* link;
         link=head;
-        //travese the first linked list
+        //traverse the first linked list
         while(link->next!=NULL)
             link=link->next;
         //connect the last element in the first linked list
@@ -35,7 +35,7 @@ public:
             //run the loop until 'ok' is false
             //swap the current node to the next node if it's larger
             //then, traverse the list again starting from the 'head'
-			//until every current node is less than the next node
+	    //until every current node is less than the next node
             while(cur->next!=end) {
                 if(cur->val>cur->next->val) {
                     int tmp=cur->val;
